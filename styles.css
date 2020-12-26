@@ -3,15 +3,15 @@
 body {
     font-family: 'Nerko One', cursive;
     background-color: #FFE74C;
-
+    background-image: url('image/minion.png');
 }
 
 #heading {
     text-align: center;
-    font-size: 5rem;
-    color: #38618C;
-    padding: 2rem;
-    padding-top: 2rem;
+    font-size: 4rem;
+    color: #FF5964;
+    padding: 1rem;
+    padding-top: 0.5rem;
     transition-duration: 0.4s;
 }
 
@@ -26,11 +26,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 10rem;
-    width: 30rem;
+    width: 28rem;
     text-align: center;
     resize: none;
     overflow: auto;
     border: #FF5964;
+    margin-top: 0rem;
     border-style: solid;
     margin-bottom: 2rem;
     transition-duration: 0.4s;
@@ -38,7 +39,7 @@ body {
 
 #txtHolder:hover {
     height: 13rem;
-    width: 35rem;
+    /* width: 35rem; */
     color: #FF5964;
     font-size: larger;
 
@@ -60,9 +61,41 @@ body {
 }
 
 #translateBtn:hover {
-    background-color: #FF5964;
-    color: white;
+    size: 5rem;
+    background-color: #FFE74C;
+    color: black;
     padding-top: 10rem;
-    padding: 15px 30px;
+    padding: 27px 45px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#outputMsg {
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+    color: black;
+}
+
+#outputDiv {
+    font-family: 'Nerko One';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+    width: 28rem;
+    text-align: center;
+    resize: none;
+    overflow: auto;
+    border: #FF5964;
+    margin-top: 0rem;
+    border-style: solid;
+    margin-bottom: auto;
+    background-color: white;
+    transition-duration: 0.4s;
+    color: #35A7FF;
+}
+
+#outputDiv:hover {
+    background-color: #FF5964;
+    color: black;
 }
